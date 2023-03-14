@@ -1,9 +1,9 @@
 <?php
     
-    define('server','2daw.esvirgua.com');
-    define('contra','C6^u=.^})YGl');
-    define('usu','user2daw_11');
-    define('bbdd','user2daw_BD1-11');
+    define('Server','2daw.esvirgua.com');
+    define('Contra','C6^u=.^})YGl');
+    define('Usu','user2daw_11');
+    define('Bbdd','user2daw_BD1-11');
 
 
 

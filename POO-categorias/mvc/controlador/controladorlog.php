@@ -25,9 +25,6 @@
         /**
          * Realizar el cierre de sesión del usuario actual.
          */
-        public function cerrarSesion()
-        {
-            $this->modelo->cerrarSesion();
-        }
+       
     }
 ?>

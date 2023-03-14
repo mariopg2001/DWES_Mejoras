@@ -2,7 +2,7 @@
     if(isset($_POST['correo'])){
         $correo=$_POST['correo'];
         $contrasenia=$_POST['contrasenia'];
-        require_once('controlador/controladorlog.php');
+        require_once('./controlador/controladorlog.php');
         $controladorLog=new ControladorLog();
 		$controladorLog->iniciarSesion($correo,$contrasenia);	
     }

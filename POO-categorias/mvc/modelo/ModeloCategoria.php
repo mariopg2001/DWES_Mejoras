@@ -7,7 +7,7 @@
             $this->conexion=$this->conectar();
         }
         public function conectar(){
-            $conexion= new mysqli(server,usu,contra,bbdd) or die ('No se puede conectar');
+            $conexion= new mysqli(Server,Usu,Contra,Bbdd) or die ('No se puede conectar');
             $conexion->set_charset('utf8');
 
             return $conexion;
