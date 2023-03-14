@@ -79,7 +79,7 @@
             <h1 id="from">Alta de categorías</h1>
             <form action="AltaCategoria.php" method="post" id="formulario">
             <label>Nombre de la categoría: </label>
-            <input name="nombrecategoria" type="text" /><br><br>
+            <input class="inp" name="nombrecategoria" type="text" /><br><br>
             <input type="submit" id="anadir" name="enviar" value="enviar"/>
             <button><a href="consulta.php" id="cancelar">Cancelar</a></button>
         </form>

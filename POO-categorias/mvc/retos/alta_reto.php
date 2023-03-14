@@ -79,15 +79,15 @@
                 <h1 id="from">Alta de Retos</h1>
                 <form action="altaretos.php" method="post">
 				
-                <label>Nombre del reto:</label><input type="text" name="nombre"><br>
-                <label >Descripción del reto:</label><textarea  name="descripcion"></textarea><br>
+                <label>Nombre del reto:</label><input class="inp" type="text" name="nombre"><br>
+                <label >Descripción del reto:</label><textarea class="inp" name="descripcion"></textarea><br>
                 <label >Publicado:</label>
                 <input type="radio" name="publicado" value=1  >Si</label>
                 <input type="radio" value=0 name="publicado" checked >No</label>
                 <br>
 
                 <label >Dirigido a:</label>
-                <select name="dirigido">
+                <select name="dirigido" class="inp">
                     <option  value="Seccion de Escuela" hidden selected>Selecciona una seccion</option>
                     <option value="Primaria">Primaria</option>
                     <option value="ESO">ESO</option>
@@ -97,7 +97,7 @@
                 </select>
                 <br>
                 <label >Categoría:</label>
-                <select  name="cat">
+                <select  name="cat" class="inp">
                     <?php 
                         require_once('../controlador/controladorcategoria.php');
                         $controlador=new ControladorCategoria();
@@ -111,12 +111,12 @@
                     ?>
                 </select><br>
                 <p>Fecha inscripción</p>
-                <label>Fecha inicio:</label><input type="date" name="finicioIns"><br>
-                <label>Fecha fin:</label><input type="date" name="ffinIns"><br>
+                <label>Fecha inicio:</label><input class="inp" type="date" name="finicioIns"><br>
+                <label>Fecha fin:</label><input class="inp" type="date" name="ffinIns"><br>
                 <br>
                 <p>Fecha realización</p>
-                <label>Fecha inicio:</label><input type="date" name="inicioreto"><br>
-                <label>Fecha fin:<label><input type="date" name="finreto"><br><br>
+                <label>Fecha inicio:</label><input class="inp" type="date" name="inicioreto"><br>
+                <label>Fecha fin:<label><input class="inp" type="date" name="finreto"><br><br>
                 
                
                 <input type="submit"  name="enviar" value="enviar">

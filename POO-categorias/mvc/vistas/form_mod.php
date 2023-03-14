@@ -91,7 +91,7 @@
 					}
 					echo '<form method="POST" action="form_mod.php">
 					<label>Categoría <label>
-					<input type="text" name="'.$_GET['id'].'" value="'.$categoria.'"/><br><br>
+					<input class="inp" type="text" name="'.$_GET['id'].'" value="'.$categoria.'"/><br><br>
 					<input type="submit" id="anadir" value="Aceptar"/>
 					</form>';
 				}		

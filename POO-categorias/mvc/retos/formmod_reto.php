@@ -104,9 +104,9 @@
                         <input id=ocultar name="idReto" value="'.$id.'"><br>
                         
                          <label>Nombre del reto:</label>
-                             <input display="none"type="text" name="Nombre" value="'.$nombreReto.'"><br>
+                             <input display="none"type="text" class="inp" name="Nombre" value="'.$nombreReto.'"><br>
                         <label >Descripción del reto:</label>
-                            <textarea  name="descripcion" >'.$descripcion.'</textarea><br>
+                            <textarea class="inp" name="descripcion" >'.$descripcion.'</textarea><br>
                             <label >Publicado:</label>';
                             if($publicado==1){
                                 echo '<input type="radio" name="publicado" value=1 checked >Si</label>
@@ -116,7 +116,7 @@
                                     <input type="radio" value=0 name="publicado" checked >No</label><br>';
                             }
                             echo ' <label >Dirigido a:</label>
-                                 <select name="seccion">
+                                 <select class="inp" name="seccion">
                                     <option  value="Seccion de Escuela" hidden selected>Selecciona una seccion</option>
                                     <option value="Primaria">Primaria</option>
                                     <option value="ESO">ESO</option>
@@ -126,7 +126,7 @@
                             </select>
                             <br>
                             <label >Categoría:</label>
-                            <select  name="categoria">';
+                            <select class="inp" name="categoria">';
                                 require_once('../controlador/controladorcategoria.php');
                                 $controlador=new ControladorCategoria();
                                 $result=$controlador-> consultar();
@@ -139,13 +139,13 @@
                                 
                            echo' </select><br>
                            <p>Fecha inscripción</p>
-                           <label>Fecha inicio:</label><input type="date" value="'.$FinicioIns.'" name="finicioIns"><br>
-                           <label>Fecha fin:</label><input type="date" value="'.$FfinIns.'" name="ffinIns"><br>
+                           <label>Fecha inicio:</label><input class="inp" type="date" value="'.$FinicioIns.'" name="finicioIns"><br>
+                           <label>Fecha fin:</label><input class="inp" type="date" value="'.$FfinIns.'" name="ffinIns"><br>
                            <br>
                            
                            <p>Fecha realización</p>
-                           <label>Fecha inicio:</label><input value="'.$FinicioReto.'" type="date" name="inicioreto" /><br>
-                           <label>Fecha fin:<label><input type="date" value="'.$FfinReto.'" name="finreto" /><br><br>
+                           <label>Fecha inicio:</label><input class="inp" value="'.$FinicioReto.'" type="date" name="inicioreto" /><br>
+                           <label>Fecha fin:<label><input class="inp" type="date" value="'.$FfinReto.'" name="finreto" /><br><br>
                              <input type="submit" name="enviar" id="anadir" value="enviar">
                            </form>';
                  

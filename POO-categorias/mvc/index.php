@@ -88,7 +88,7 @@
         </div>
         <div id="contenedor">
             <div id="subcontenedor2" class="subcont">
-                <h1>Bienvenido a la Pagina de WEB-Retos</h1>
+                <h1 id="from">Bienvenido a la Pagina de WEB-Retos</h1>
             </div>
         </div>
 

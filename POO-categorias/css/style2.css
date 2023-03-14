@@ -36,7 +36,7 @@ div#contenedor{
 }
 h1#titulo{
     display: inline;
-    margin-left: 1.666666666666667%;
+    margin-left: 1.666666666666667%;/*25 px de 1500*/
 }
 
 div#subcontenedor1{
@@ -95,7 +95,7 @@ div#subcontenedor1{
     box-shadow: 5px 5px 8px #6e6e6e
 }
 li.opc2{
-    margin-left: 8.771929824561404%;
+    margin-left: 8.771929824561404%; /*20 px de 228*/
 }
 div#subcontenedor2{
      background-color: #D977E6; 
@@ -105,20 +105,20 @@ div#subcontenedor2{
     height: 550px;
 }
 h1#from{
-    margin-left: 3.333333333333333%;/*25px*/
+    margin-left: 3.342245989304813%;/*25px de 748px*/
 }
 form{
-    margin-left:20%; /*150px*/
+    margin-left:20.05347593582888%; /*150px de 748*/
 }
 input[type="text"]{
-    padding-left:3.344481605351171% ;/*598espacio disponible*/
+    padding-left:3.344481605351171% ;/*20px   598(750px contenedor - 150 margin - 2 px de border) espacio disponible*/
    
 }
 #menu input {
 	display: none;
 }
 .inp{
-    width:41.80602006688963%;/*250px*/
+    width:41.80602006688963%; /*250px de */
 }
 
 table{
@@ -135,8 +135,8 @@ table,tr,th,td{
     border-collapse: collapse;
 }
 button{
-    width: 8.021390374331551%;/*60px*/
-    margin-left: 4.010695187165775%;
+    width: 8.021390374331551%;/*60px 748 su contenedor*/
+    margin-left: 4.010695187165775%;/*30px de 748*/
     min-width: 60px;
 }
 
