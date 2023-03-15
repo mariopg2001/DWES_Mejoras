@@ -111,7 +111,7 @@ form{
     margin-left:20.05347593582888%; /*150px de 748*/
 }
 input[type="text"]{
-    padding-left:3.344481605351171% ;/*20px   598(750px contenedor - 150 margin - 2 px de border) espacio disponible*/
+    padding-left:3.010033444816054% ;/*20px-2border   598(750px contenedor - 150 margin - 2 px de border) espacio disponible*/
    
 }
 #menu input {
