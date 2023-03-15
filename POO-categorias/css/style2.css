@@ -115,12 +115,13 @@ input[type="text"]{
     padding-left:3.010033444816054% ;/*20px-2border   598(750px contenedor - 150 margin - 2 px de border) espacio disponible*/
    
 }
-#menu input {
-	display: none;
-}
 .inp{
     width: 41.47157190635452%; /*250 -2px de 598 (750px contenedor - 150 margin - 2 px de border) */
 }
+#menu input {
+	display: none;
+}
+
 
 table{
     margin: 0 auto;
